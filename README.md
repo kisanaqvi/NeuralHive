@@ -2,4 +2,4 @@
 A collaborative social platform for brain health research 
 
 
-Based on the template from Bootstrap
+Based on the Freelancer template from Bootstrap
