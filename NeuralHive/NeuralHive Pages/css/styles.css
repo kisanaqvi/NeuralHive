@@ -612,6 +612,21 @@ progress {
   height: auto;
 }
 
+.portfolio-image-size {
+  width: 300px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center-text {
+  text-align: center;
+}
+
 .figure {
   display: inline-block;
 }
@@ -7709,7 +7724,7 @@ textarea.form-control-lg {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: #7c1680;
 }
 
 .text-success {
@@ -11304,9 +11319,9 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #7c1680;
   border-radius: 1rem;
-  border-color: #2c3e50;
+  border-color: #7c1680;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -11315,7 +11330,7 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50;
+  color: #7c1680;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -11452,6 +11467,8 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  height: 13rem;
+  
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
@@ -11459,10 +11476,10 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #7c1680;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.85;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
