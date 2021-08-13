@@ -3024,14 +3024,14 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: black;
-  background-color: white;
-  border-color: #7c1680;
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #7c1680;
-  border-color: #7c1680;
+  background-color: #16a085;
+  border-color: #15967d;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3048,9 +3048,9 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
-  color: black;
-  background-color: white;
-  border-color: #7c1680;
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
 
 .btn-secondary {
@@ -7795,12 +7795,12 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #7c1680;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: white;
+  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-success {
@@ -11353,10 +11353,10 @@ html {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: black;
+  color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #7c1680;
+  color: #1abc9c;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -11384,11 +11384,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #7c1680;
+    background: #1abc9c;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #7c1680;
+    background: #1abc9c;
   }
 
   #mainNav.navbar-shrink {
@@ -11487,7 +11487,7 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #7c1680;
+  background-color: #2c3e50;
   color: #fff;
 }
 
